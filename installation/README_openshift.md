@@ -27,7 +27,7 @@ For Vault auto-unseal using **AWS Key Vault**, create the required secrets.
 oc create secret generic aws-vault-secret \
 --from-literal=AWS_ACCESS_KEY_ID="<AWS_ACCESS_KEY_ID>" \
 --from-literal=AWS_SECRET_ACCESS_KEY="<AWS_SECRET_ACCESS_KEY>" \
---from-literal=VAULT_AWSKMS_SEAL_KEY_ID="<VAULT_AWSKMS_SEAL_KEY_ID>" \
+--from-literal=VAULT_AWSKMS_SEAL_KEY_ID="<VAULT_AWSKMS_SEAL_KEY_ID>"
 ```
 
 ### **4. Create a Secret for TLS Certificates**
