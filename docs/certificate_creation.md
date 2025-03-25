@@ -18,6 +18,7 @@ DNS: *.vault-internal.<VAULT_NAMESPACE>.svc.cluster.local
 DNS: Openshift Route URL
 DNS: Load Balancer URL
 IP Address: 127.0.0.1
+DNS: <OF_DR_CLUSTER>
 
 ```
 
